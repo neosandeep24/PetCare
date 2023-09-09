@@ -1,17 +1,17 @@
 function PetCare()
 {
     return (
-        <div>
-            <div>
+        <div className="petcare">
+            <div className="s">
                 Caring for pets throughout their entire life span requires attention, commitment, and proper knowledge. 
             </div>
-            <div>
+            <div className="s">
                 Here's a comprehensive guide on how to care for pets from birth to old age, organized by age stages:
             </div>    
             <h1>
             Birth to 3 Months (Puppies/Kittens):
             </h1>
-            <h3>
+            <h3 >
                 <h3>Feeding: Provide mother's milk or a suitable milk replacement formula for orphaned puppies/kittens. Consult a veterinarian for guidance.</h3>
                 <h3>Warmth: Keep the environment warm using heating pads or warm blankets, as newborns cannot regulate their body temperature well.</h3>
                 <h3>Socialization: Gently handle the young ones to help them become accustomed to human touch and sounds.</h3>
@@ -68,7 +68,7 @@ function PetCare()
             <h3>Quality Time: Spend quality time together and provide extra love and attention.</h3>
             </h3>
                 
-          <h1>Remember, each pet is unique, so adapt your care routine based on their individual needs, health conditions, and behavior. Regular communication with your veterinarian is crucial at every life stage.   </h1>
+          <h1 className="s">Remember, each pet is unique, so adapt your care routine based on their individual needs, health conditions, and behavior. Regular communication with your veterinarian is crucial at every life stage.   </h1>
 
             
         </div>
