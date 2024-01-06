@@ -12,19 +12,27 @@
 # Components of Website
 
 ### Landing page
- ![Screenshot (140)](https://github.com/neosandeep24/AnimalHacks/assets/103883917/27ad0ec7-1d1c-4657-ae76-3a77842a6463)
+![Screenshot (234)](https://github.com/neosandeep24/PetCare/assets/103883917/77f713ec-b927-48db-8eb8-b39485eb064f)
 
-### PetStore
-![Screenshot (139)](https://github.com/neosandeep24/AnimalHacks/assets/103883917/98828efb-15d2-48f6-94bd-3467f477423f)
+
+### Market
+![Screenshot (235)](https://github.com/neosandeep24/PetCare/assets/103883917/fce34437-0907-400e-8586-2e7c4b728b5f)
 
 ### Maps
   ![Screenshot (142)](https://github.com/neosandeep24/AnimalHacks/assets/103883917/f84cac59-342b-4c33-a8b6-97640b116aab)
 
-### PetProtection
-![Screenshot (137)](https://github.com/neosandeep24/AnimalHacks/assets/103883917/7d3f8425-5f77-4da4-a9b3-8c960d01fba0)
+### Previous Purchases
+![Screenshot (236)](https://github.com/neosandeep24/PetCare/assets/103883917/4e543f8c-1b0b-406e-b9f1-a55ab8497534)
+
+
+### Pet Protection
+![Screenshot (237)](https://github.com/neosandeep24/PetCare/assets/103883917/9e6a6e62-a8b0-497c-9104-4f41477da72e)
 
 ### Pet Info Breeds ,cost ,lifespan etc
-![Screenshot (138)](https://github.com/neosandeep24/AnimalHacks/assets/103883917/37c63d95-7b91-4eeb-bc77-a35a33e0ae81)
+![Screenshot (239)](https://github.com/neosandeep24/PetCare/assets/103883917/25de2c4c-55be-4833-be73-99dc2bbd0cf2)
+
+### Donate 
+![Screenshot (238)](https://github.com/neosandeep24/PetCare/assets/103883917/b0ea5e29-b438-464c-9af1-d368379c93ea)
 
 ### Contact us
 ![Screenshot (136)](https://github.com/neosandeep24/AnimalHacks/assets/103883917/fb71bed3-44d8-478d-94a5-5213beb38f19)
