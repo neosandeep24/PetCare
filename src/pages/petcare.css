@@ -1,0 +1,39 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .petcare {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .s {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #e5f7ff;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Add more specific styles as needed */
+  

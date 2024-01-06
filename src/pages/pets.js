@@ -2,7 +2,7 @@ import parrotdata from "./parrotData";
 import fishdata from "./fishData";
 import blogdata from "./Dogdata";
 
-import "../App.css";
+import "./pet.css";
 import { Card } from "antd";
 const { Meta } = Card;
 
@@ -17,7 +17,7 @@ function Blogss(props) {
         <Meta  title={props.name} description="Cost"  />
         <Meta title={props.cost} description="Age" />
         <Meta title={props.lifetime} description="Location"/>
-        <Meta title={props.location} description="Phone"/>
+        {/* <Meta title={props.location} description="Phone"/> */}
         <Meta title={props.phone}/>
       </Card>
       
@@ -72,7 +72,7 @@ const c = blogdata.map((b) => {
 function Blog() {
   return (
     <div>
-      <h1 className="headb">Pets</h1>
+      <h1 className="headb">Information about Pets</h1>
       <div className="display">{a}</div>
       <div className="display">{b}</div>
       <div className="display">{c}</div>

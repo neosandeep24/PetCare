@@ -1,3 +1,4 @@
+import './petcare.css'
 function PetCare()
 {
     return (
@@ -8,6 +9,7 @@ function PetCare()
             <div className="s">
                 Here's a comprehensive guide on how to care for pets from birth to old age, organized by age stages:
             </div>    
+            <hr/>
             <h1>
             Birth to 3 Months (Puppies/Kittens):
             </h1>
@@ -20,7 +22,7 @@ function PetCare()
                 <h3>Litter Training: For kittens, introduce a litter box with low sides. They will naturally start using it.</h3>
                 <h3>Playtime: Encourage light play and exploration to develop motor skills and curiosity.</h3>
             </h3>
-
+           <hr/>
             <h1>
             3 to 6 Months (Puppies/Kittens):
             </h1>
@@ -31,7 +33,7 @@ function PetCare()
                 <h3>Chew Toys: Provide appropriate chew toys to help with teething and prevent destructive chewing.</h3>
                 <h3>Healthcare: Continue with vaccinations, flea/tick prevention, and regular vet checkups.</h3>
             </h3>
-
+            <hr/>
             <h1>
             6 Months to 2 Years (Young Adults):
             </h1>
@@ -43,7 +45,7 @@ function PetCare()
                 <h3>Spaying/Neutering: Consult your vet about spaying/neutering, usually done around 6 months old.</h3>
                 <h3>Health Monitoring: Regular vet visits, dental checkups, and preventive care are essential.</h3>
             </h3>
-
+            <hr/>
             <h1>
             2 Years to 7 Years (Adults):
             </h1>
@@ -55,7 +57,7 @@ function PetCare()
              <h3>Joint Care: Large breeds may benefit from joint supplements to prevent arthritis.</h3>
              <h3>Weight Management: Keep an eye on their weight to prevent obesity-related health issues.</h3>
             </h3>
-           
+            <hr/>
             <h1>
             7 Years and Older (Seniors):
             </h1>
@@ -67,7 +69,7 @@ function PetCare()
             <h3>Supplements: Consider supplements that support joint health and cognitive function.</h3>
             <h3>Quality Time: Spend quality time together and provide extra love and attention.</h3>
             </h3>
-                
+                <hr/>
           <h1 className="s">Remember, each pet is unique, so adapt your care routine based on their individual needs, health conditions, and behavior. Regular communication with your veterinarian is crucial at every life stage.   </h1>
 
             

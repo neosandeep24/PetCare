@@ -10,13 +10,15 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+
+import './protection.css'
 // import { experimentalStyled as styled } from '@mui/material/styles';
 // import Paper from '@mui/material/Paper';
 
 
   function Pets(props){
     return(
-        <div>
+        <div className="fast">
           <h1>{props.name}</h1>
           <p>{props.matter}</p>
           <p>{props.matter1}</p>

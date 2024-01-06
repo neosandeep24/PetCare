@@ -5,7 +5,7 @@ const layout = () => {
   return (
     <>
       <nav className="nav">
-        <h1>AnimalHacks</h1>
+        <h1>Pet Care</h1>
         <ul>
           <li>
             <Link to="/home">Home</Link>
@@ -14,7 +14,7 @@ const layout = () => {
             <Link to="/market">Market</Link>
           </li>
           <li>
-            <Link to="/Blogs">Blogs</Link>
+            <Link to="/Blogs">Purchases</Link>
           </li>
           <li>
             <Link to="/Protection">Protection</Link>

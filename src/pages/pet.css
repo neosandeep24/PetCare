@@ -1,0 +1,69 @@
+
+  .headb {
+    text-align: center;
+    color: #a7ecff; 
+    background-color: rgb(255, 0, 0);
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  /* Display Container Styles */
+  .display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Each row has 4 cards */
+    gap: 20px; /* Adjust the gap between cards */
+    margin-top: 20px;
+  }
+  
+  /* Card Styles */
+  .ant-card {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #333; /* Dark border color */
+    background: #a0eff5; /* Dark background color */
+    transition: transform 0.3s ease-in-out;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1 1; /* Maintain a 1:1 aspect ratio */
+  }
+  
+  /* Image Styles */
+  .ant-card-cover img {
+    max-width: 100%;
+    height: 150px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-top-left-radius: 8px; /* Rounded corners for the top left */
+    border-top-right-radius: 8px; /* Rounded corners for the top right */
+    aspect-ratio: inherit; /* Inherit the aspect ratio from the parent */
+  }
+  
+  /* Meta Styles */
+  .ant-card-meta-title,
+  .ant-card-meta-description {
+    font-weight: bold;
+    color: #61dafb; /* Accent color for titles and descriptions */
+    padding: 12px;
+    flex-grow: 1;
+  }
+  
+  /* Additional styles for hover effect on the Card */
+  .ant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Futuristic Box Shadow */
+  .futuristic-box {
+    box-shadow: 0 0 50px rgba(97, 218, 251, 0.8); /* Futuristic box shadow */
+  }
+  
+  /* Cool Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+  .ant-card-meta-title,
+  .ant-card-meta-description,
+  .headb {
+    font-family: 'Orbitron', sans-serif; /* Use a cool futuristic font */
+  }
+  
