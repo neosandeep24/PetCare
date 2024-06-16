@@ -11,8 +11,7 @@
 
 ### Purpose
 * Offering reliable, informative, and trustworthy content to promote How to take care of animals around you.
-* How to Avoide any kind of disturbance to animals and to live ,co-exist without harming the Animals.
-### 
+* How to Avoid any kind of disturbance to animals and to live ,co-exist without harming the Animals.
 * Connect with like-minded people and Solve the issues
 <h1 align='center'> Technology Stack Used</h1>
 <div align="center">
