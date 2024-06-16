@@ -21,8 +21,3 @@
  <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=white">
  <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge">
 </div>
-
-<h1 align='center'>Contributors</h1>
-
-<h2 align='center'><a href="https://github.com/neosandeep24">Sandeep</a></h2>
-<h2 align='center'><a href="https://github.com/Sivasanath06">Sivasanath</a></h2>
