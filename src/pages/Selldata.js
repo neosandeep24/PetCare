@@ -6,7 +6,7 @@ const Selldata = [
     Age: "5 years",
     location: "NewYork",
     phone: "123456789",
-    url: "https://static1.squarespace.com/static/54e7a1a6e4b08db9da801ded/t/61eb41b698b5f077a9637a40/1642807755677/81.jpg?format=1500w",
+    url: "https://www.mygoldenretrieverpuppies.com/wp-content/uploads/2020/11/golden-retriever-price-range.jpg",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const Selldata = [
     cost: "$650 to $4,000",
     Age: "3.5 years",
     location: "Moscow",
-    url: "https://static1.squarespace.com/static/54e7a1a6e4b08db9da801ded/t/61eb41b698b5f077a9637a40/1642807755677/81.jpg?format=1500w",
+    url: "https://www.windyknollgoldens.com/wp-content/uploads/2019/08/this-beautiful-AKC-golden-retriever-puppy-of-Windy-Knoll-Goldens-needs-a-name.jpg",
   },
   {
     id: 4,

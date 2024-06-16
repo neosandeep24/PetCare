@@ -1,170 +1,136 @@
+/* App.css */
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Navigation */
 .nav {
   display: flex;
-  background-color: rgb(238, 215, 215);
-  width: auto;
-  padding: 20px 20px;
-  border: 5px solid #000000;
-
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .nav h1 {
-  margin-left: 10%;
-  font-size: 40px;
-  color: #f9a405;
-  position: relative;
-  right: 60px;
+  color: #007bff;
+  margin-right: auto;
 }
 
 .nav ul {
   list-style: none;
   display: flex;
-  gap: 40px;
-  margin-left: 15%;
-  margin-top: 3%;
-  position: relative;
-  right: 210px;
-  top: 13px;
-}
-
-.nav li {
-  font-size: 20px;
+  gap: 1rem;
 }
 
 .nav a {
   text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: color 0.3s;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .nav a:hover {
-  color: rgb(0, 194, 216);
+  color: #007bff;
 }
 
- .more {
+/* More Section */
+.more {
   display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 .more ul {
   list-style: none;
   display: flex;
-  gap: 10px;
-  margin-left: 4%;
-  margin-top: 2%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .more li {
-  font-size: 20px;
-  background-color: rgb(240, 150, 150);
-  padding: 10px;
-  border-radius: 10px;
-  position: relative;
-  bottom: 170px;
-  right: 55px;
+  background-color: #ffc107;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
 }
 
 .more a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
-  transition: color 0.3s;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .more a:hover {
-  color: rgb(51, 255, 0);
-} 
-/*
-.maindog {
+  color: #007bff;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.gallery__link {
+  overflow: hidden;
   position: relative;
-  margin-left: 57%;
-  margin-top: -25%;
-  border-radius: 100px;
-  bottom: 127px;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.footer {
-  background-color: aliceblue;
+.gallery__link:hover {
+  transform: translateY(-5px);
 }
 
-.headf {
-  margin-top: 5%;
-  margin-left: 14%;
-  gap: 200px;
-  display: flex;
-  flex-direction: row;
-}
-
-.lowest {
-  margin-left: 10%;
-  margin-bottom: 2%;
-  font-size: 20px;
-}
-
-.label {
-  white-space: break-spaces;
-}*/
-
- .gallery {
-  display: flex;
-  padding: 2px 180px;
-  transition: 0.3s;
+.gallery__thumb {
   position: relative;
-  right: 140px;
-  &__column {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-  }
-
-  &__link {
-    margin: 2px;
-    overflow: hidden;
-
-    hover {
-      .gallery__image {
-        filter: grayscale(0);
-      }
-
-      .gallery__caption {
-        opacity: 1;
-      }
-    }
-  }
-
-  &__thumb {
-    position: relative;
-  }
-
-  &__image {
-    display: block;
-    width: 100%;
-    transition: 0.3s;
-
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-
-  &__caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 25px 15px 15px;
-    width: 100%;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    color: white;
-    opacity: 0;
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    transition: 0.3s;
-  }
 }
 
 .gallery__image {
-  &:hover &__image {
-    filter: grayscale(1);
-  }
-}  
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery__image:hover {
+  transform: scale(1.1);
+}
+
+.gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery__link:hover .gallery__caption {
+  opacity: 1;
+}

@@ -1,124 +1,218 @@
-    body {
-        margin: 0 auto;
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  .home-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  h3 {
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .matter {
-    flex: 1;
-    margin-left: -60%;
-    margin-top: 10%;
-    margin-bottom: -35%;
-    
-  }
-  .matter p {
-    font-style: italic;
-    color: #555;
-   font-size: 20px;
-  }
-  .matter h1{
-    font-size: 65px;
-  }
-  .matter h3{
-    font-size: 30px;
-    font-style: italic;
-  }
-  .maindog {
-    flex: 1;
-    margin-left: 55%;
-    height: 550px;
-    width: 100%;
-    max-width: 550px;
-    border: 5px solid #000000;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  footer {
-    background-color: #ffffff;
-    color: #fff;
-    padding: 20px;
-    margin-top: 30px;
-    border: 5px solid #000000;
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Typography */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.headh1 {
+  font-size: 4rem;
+  font-weight: 0;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.headh3 {
+  font-size: 2.5rem;
+  font-weight: 000;
+  color: #666;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Layout */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.matter {
+  margin-bottom: 3rem;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.maindog {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 10px solid #ff6b6b;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Bento Box */
+.bento-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.bento-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.bento-item {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  flex: 1 1 calc(50% - 1rem);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  min-height: 250px;
+}
+
+/* Services */
+.services-container {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.servicessectiontitle{
+  font-size: 7.5rem;
+  color: #f4f4f4;
+}
+.service-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  flex: 1 1 calc(50% - 1rem);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+}
+/* Footer */
+footer {
+  background-color: #ff6b6b; /* Changed background color for a distinct look */
+  color: #fff; /* Changed text color to white for better contrast */
+  padding: 2rem;
+  margin-top: 3rem;
+  border-top: 5px solid #000; /* Changed border to top only */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centered text alignment */
+}
+
+.navi {
+  display: flex;
+  justify-content: center; /* Centered navigation items */
+  gap: 2rem; /* Added gap for spacing between items */
+  flex-wrap: wrap;
+  margin-bottom: 1rem; /* Added margin bottom */
+}
+
+.navi-column {
+  flex: 0 1 auto; /* Adjusted flex for better responsiveness */
+  text-align: center;
+}
+
+.navi-column p {
+  margin: 0.5rem 0;
+  color: #fff; /* Changed text color to white */
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  font-size: 1.2rem; /* Increased font size for navigation links */
+}
+
+.navi-column p:hover {
+  color: #f4f4f4; /* Slightly lighter color on hover */
+  transform: scale(1.1);
+}
+
+.lowest {
+  font-size: 1rem; /* Increased font size for footer text */
+  color: #fff; /* Changed text color to white */
+  margin-top: 1rem; /* Adjusted margin top */
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  .headf h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .navi {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 10rem;
   }
-  
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
   .navi-column {
-    flex: 1;
-    margin-right: 20px;
+    flex: 0 0 50%;
   }
-  
-  .navi-column p {
-    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
   }
-  
-  .lowest {
-    color:#000000;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
+
+  h3 {
+    font-size: 1.2rem;
   }
-  
-  /* Media Queries for responsiveness */
-  @media screen and (max-width: 768px) {
-    header {
-      font-size: 0.9em;
-    }
-  
-    h1 {
-      font-size: 1.5em;
-    }
-  
-    h3 {
-      font-size: 1em;
-    }
-  
-    .maindog {
-      max-width: 100%;
-      order: 0; /* Reset the order for smaller screens */
-    }
-  
-    .more {
-      margin-right: 0;
-      margin-top: 20px;
-    }
-  
-    .navi {
-      flex-direction: column;
-    }
-  
-    .navi-column {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
+
+  .navi-column {
+    flex: 0 0 100%;
   }
-  
+}

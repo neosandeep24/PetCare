@@ -1,3 +1,4 @@
+import React from "react";
 import parrotdata from "./parrotData";
 import fishdata from "./fishData";
 import blogdata from "./Dogdata";
@@ -11,64 +12,54 @@ function Blogss(props) {
     <a href={props.link}>
       <Card
         hoverable
-        style={{ width: 240, borderBlockColor: "black" }}
+        className="custom-card"
         cover={<img src={props.url} alt="" />}
       >
-        <Meta  title={props.name} description="Cost"  />
+        <Meta title={props.name} description="Cost" />
         <Meta title={props.cost} description="Age" />
-        <Meta title={props.lifetime} description="Location"/>
-        {/* <Meta title={props.location} description="Phone"/> */}
-        <Meta title={props.phone}/>
+        <Meta title={props.lifetime} description="Location" />
+        <Meta title={props.phone} />
       </Card>
-      
     </a>
   );
 }
+
 function Blogss1(props) {
   return (
     <a href={props.link}>
       <Card
         hoverable
-        style={{ width: 240, borderBlockColor: "black" }}
+        className="custom-card"
         cover={<img src={props.url1} alt="" />}
       >
-        <Meta  title={props.name1} description="Cost"  />
+        <Meta title={props.name1} description="Cost" />
         <Meta title={props.cost1} description="Age" />
         <Meta title={props.lifetime1} />
-        
       </Card>
-      
     </a>
   );
 }
+
 function Blogss2(props) {
   return (
     <a href={props.link}>
       <Card
         hoverable
-        style={{ width: 240, borderBlockColor: "black" }}
+        className="custom-card"
         cover={<img src={props.url} alt="" />}
       >
-        <Meta  title={props.name} description="Cost"  />
+        <Meta title={props.name} description="Cost" />
         <Meta title={props.cost} description="Age" />
-        <Meta title={props.lifetime}  />
-        
+        <Meta title={props.lifetime} />
       </Card>
-      
     </a>
   );
 }
 
-const a = parrotdata.map((b) => {
-  return <Blogss {...b} />;
-});
-const b = fishdata.map((b) => {
-  return <Blogss1 {...b} />;
-});
+const a = parrotdata.map((b, index) => <Blogss key={index} {...b} />);
+const b = fishdata.map((b, index) => <Blogss1 key={index} {...b} />);
+const c = blogdata.map((b, index) => <Blogss2 key={index} {...b} />);
 
-const c = blogdata.map((b) => {
-  return <Blogss2 {...b} />;
-});
 function Blog() {
   return (
     <div>
@@ -76,9 +67,8 @@ function Blog() {
       <div className="display">{a}</div>
       <div className="display">{b}</div>
       <div className="display">{c}</div>
-
-
     </div>
   );
 }
+
 export default Blog;

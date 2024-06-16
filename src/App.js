@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className="backgg">
+      <div>
        <BrowserRouter>
           <Link to="/">
           </Link>

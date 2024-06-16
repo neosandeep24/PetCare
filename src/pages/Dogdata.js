@@ -22,7 +22,7 @@ const blogdata=[
         matter:"",
         cost:"$750 to $5,000",
         lifetime:"10-13 years",
-        url:"https://www.dailypaws.com/thmb/DQfQglzyKWlVSlsDwKPprF2iMSg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-retriever-177213599-2000-a30830f4d2b24635a5d01b3c5c64b9ef.jpg",
+        url:"https://www.mygoldenretrieverpuppies.com/wp-content/uploads/2020/11/golden-retriever-price-range.jpg",
     },
     {
         id: 4,
